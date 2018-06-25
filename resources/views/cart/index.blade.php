@@ -34,7 +34,6 @@
                             <form action="{{ route('cart.remove', $cartItem->rowId) }}" method="post">
                                 {{ csrf_field() }}
                                 <button type="submit" class="btn btn-danger btn-sm">Delete</button>
-
                             </form>
                     </td>
 
